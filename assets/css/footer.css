@@ -1,0 +1,94 @@
+
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:20px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+.move-up{
+  position: absolute;
+  right: 6%;
+}
+
+.move-up span{
+  color: var(--midnight);
+}
+
+.move-up span:hover{
+  color: var(--white);
+  cursor: pointer;
+}
+
+div.ending p{
+  font-size: 17px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+div.ending{
+  padding-bottom: 15px;
+  padding-top: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .move-up{
+    padding-top: 150px;
+  }
+  .newsl{
+    font-size: 14px;
+  }
+  div.row h3{
+    font-size: 17px;
+
+  }
+  div.row li{
+    font-size: 13px;
+    text-decoration: none;
+    text-emphasis: none;
+  }
+  div.row p{
+    font-size: 13px;
+    text-emphasis: none;
+  }
+  div.row a{
+    font-size: 13px;
+  }
+  div.row{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  div.ending p{
+    font-size: 13px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  div.ending{
+    padding-bottom: 5px;
+  }
+}
